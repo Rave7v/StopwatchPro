@@ -30,7 +30,8 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        />
 
     <Button
         android:id="@+id/reset"
@@ -52,6 +53,7 @@
         android:background="@color/blue"
         android:text="+"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        />
 
 </RelativeLayout>
