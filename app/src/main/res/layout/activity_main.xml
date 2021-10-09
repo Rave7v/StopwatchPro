@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Time"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/time"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/reset"
+        android:background="@color/red"
+        android:text="||"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey"
+
+        android:text="reset" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/time"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/reset"
+        android:background="@color/blue"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
