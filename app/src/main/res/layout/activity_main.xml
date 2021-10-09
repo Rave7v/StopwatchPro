@@ -26,9 +26,11 @@
         android:layout_marginRight="20dp"
         android:layout_toLeftOf="@id/reset"
         android:background="@color/red"
-        android:text="||"
+        android:drawableBottom="@android:drawable/ic_media_pause"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/reset"
@@ -37,8 +39,8 @@
         android:layout_below="@+id/time"
         android:layout_centerHorizontal="true"
         android:background="@color/grey"
-
-        android:text="reset" />
+        android:drawableBottom="@android:drawable/ic_popup_sync"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/add"
